@@ -1,0 +1,77 @@
+.userAddList {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 100px;
+    border: 1px solid #D9D9D9;
+    box-shadow: inset 0px -1px 0px #D9D9D9;
+}
+.projectInfoData p {
+    margin: 0;
+    padding: 0;
+}
+.projectInfoData span{
+    margin: 0;
+    padding: 0;
+    font-size: .7rem;
+    color: #A9A9A9;
+}
+.projectManager {
+    margin-left: -80px;
+}
+.projectManagerData {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.projectManagerData svg {
+    font-size: 1.4rem;
+}
+.assignedData {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.assignedData svg {
+    font-size: 1.4rem;
+}
+.status div {
+    background-color: #F5F5F5;
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: .8rem;
+}
+.iconOpt {
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+@media only screen and (max-width: 468px) {
+    .assigned {
+        display: none;
+    }
+    .status {
+        display: none;
+    }
+    .userAddList {
+        padding-left: 20px;
+        padding-right: 20px;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .projectInfoData {
+        font-size: .9rem;
+    }
+    .projectManager {
+        margin-left: 0px;
+        font-size: .9rem;
+    }
+    .iconOpt {
+        position: absolute;
+        text-align: end;
+        width: 90%;
+    }
+}

@@ -1,0 +1,104 @@
+.listPageNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Inter';
+    box-shadow: inset 0px -1px 0px #D9D9D9;
+    background-color: #fff;
+}
+.buttomAdd {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    background-color: #F5222D;
+    border-radius: 4px;
+    width: 134px;
+    height: 40px;
+    color: #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.boxContent {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #D9D9D9;
+    height: 100%;
+    padding: 20px;
+}
+.crudTableContent {
+    width: 100%;
+}
+.tableContent {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+}
+.titlesTable {
+    display: flex;
+    align-items: space-around;
+    justify-content: space-around;
+    border: 1px solid #D9D9D9;
+    padding: 15px;
+    box-shadow: inset 0px -1px 0px #D9D9D9;
+    font-size: .9rem;
+}
+.alignModal {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 90%;
+    /* position: absolute; */
+    transform: translate(-12px, -20px);
+}
+.modalEditDelete {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #D9D9D9;
+    padding: 5px;
+    background-color: #fff;
+    width: 100px;
+}
+.modalEditDelete div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: .8rem
+}
+.modalEditDelete svg {
+    font-size: .8rem;
+}
+
+.pagination {
+    display: none;
+}
+
+@media only screen and (max-width: 468px) {
+    .buttomAdd {
+        padding-left: 5px;
+        padding-right: 0px;
+        gap: 5px;
+        font-size: .8rem;
+        width: 100px;
+    }
+    .titlesTable {
+        display: none;
+    }
+    .boxContent {
+        padding: 0px;
+        padding-top: 10px;
+    }
+    .listPageMain {
+        height: 80vh;
+        overflow: hidden;
+    }
+}

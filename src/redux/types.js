@@ -1,0 +1,8 @@
+export const ADD_ITEM_TO_LIST = "ADD_ITEM_TO_LIST";
+
+export const DELETE_ITEM_LIST = "DELETE_ITEM_LIST";
+
+export const EDIT_ITEM_LIST = "EDIT_ITEM_LIST"
+export const VISIBLE_ITEM_TRUE = "VISIBLE_ITEM_TRUE"
+
+export const SET_SEARCH = "SET_SEARCH"

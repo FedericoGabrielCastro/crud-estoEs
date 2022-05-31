@@ -1,0 +1,18 @@
+.customNavbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 56px;
+    border-bottom: 1px solid #D9D9D9;
+    padding-left: 48px;
+    background-color: #fff;
+}
+.imgLogo {
+    height: 32px;
+}
+
+@media only screen and (max-width: 468px) {
+    .customNavbar {
+        padding-left: 10px;
+    }
+}
